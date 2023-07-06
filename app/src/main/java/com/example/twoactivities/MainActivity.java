@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         mReplyTextView = findViewById(R.id.text_message_reply);
     }
 
-
+//c'est pour le commit
     public void launchSecondActivity(View view) {
         Log.d(LOG_TAG, "Button clicked !");
         Intent intent = new Intent(this, SecondActivity.class);
